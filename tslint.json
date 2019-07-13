@@ -76,6 +76,7 @@
         "prefer-const": true,
         "no-require-imports": true,
         "jsdoc-format": true,
-        "no-unused-variable": true
+        "no-unused-variable": true,
+        "eofline": true
     }
 }

@@ -16,5 +16,3 @@ client.on("ready", () => {
 });
 
 presence_update(client);
-
-

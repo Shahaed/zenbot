@@ -7,7 +7,8 @@
         ],
         "indent": [
             true,
-            "spaces"
+            "spaces",
+            2
         ],
         "one-line": [
             true,
@@ -76,7 +77,6 @@
         "prefer-const": true,
         "no-require-imports": true,
         "jsdoc-format": true,
-        "no-unused-variable": true,
         "eofline": true
     }
 }

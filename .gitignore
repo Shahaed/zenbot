@@ -39,3 +39,9 @@ dist/**/*
 
 # ignore yarn.lock
 yarn.lock
+
+# secrets
+secrets
+
+# vscode
+**/.vscode

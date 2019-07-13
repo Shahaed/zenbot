@@ -51,6 +51,25 @@
                 "variable-declaration": "onespace"
             }
         ],
+        "ban-types": [
+            true,
+            [
+                "Object",
+                "Do not use Object type"
+            ],
+            [
+                "String",
+                "Use 'string' instead."
+            ],
+            [
+                "Number",
+                "Use 'number' instead."
+            ],
+            [
+                "Boolean",
+                "Use 'boolean' instead."
+            ]
+        ],
         "no-internal-module": true,
         "no-trailing-whitespace": true,
         "no-null-keyword": true,

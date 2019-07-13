@@ -1,8 +1,10 @@
-import { Client, GuildMember, TextChannel } from "discord.js";
+import { Client } from "discord.js";
 import * as dotenv from "dotenv";
 import { presence_update } from "./presence_update";
 
-
+/**
+ * Entry point that spawns the Discord client
+ */
 dotenv.config();
 const client = new Client();
 

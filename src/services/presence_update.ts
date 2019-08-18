@@ -11,6 +11,7 @@ export class PresenceListener {
 
     async zen_player_presence_change(client: Client) {
         const all_players_map: Map<string, PlayerInfo> = new Map();
+        // We're tracking presence changes of all players in our db. Will probably change this soon
         (await this.player_services.get_all_players()).forEach(player => {
             all_players_map.set(player.id, player);
         });

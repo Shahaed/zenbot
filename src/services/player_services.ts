@@ -7,6 +7,7 @@ export class PlayerInfo {
     avatarURL?: string | null;
     id: string;
     username: string;
+    playing: boolean;
 
     constructor(id: string, data: DocumentData) {
         this.avatar = data.avatar;

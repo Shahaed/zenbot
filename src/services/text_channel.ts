@@ -1,13 +1,13 @@
 import { Client } from "discord.js";
 
 export class TextChannel {
-  client: Client;
+    client: Client;
 
-  constructor(client: Client) {
-    this.client = new Client;
-  }
+    constructor(client: Client) {
+        this.client = new Client;
+    }
 
-  send_to_channel(channel: string, message: string) {
-    return;
-  }
+    send_to_channel(channel: string, message: string) {
+        return;
+    }
 }

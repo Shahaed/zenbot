@@ -10,13 +10,13 @@ Requirements
 
 Environmental Variables
 ---
-```console 
+```console
 cp .env_sample .env
 ```
 
 Running Locally
 ---
-If you plan on using voice you need FFMPEG installed: 
+If you plan on using voice you need FFMPEG installed:
 
 MacOS --> `brew install ffmpeg`
 

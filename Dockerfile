@@ -7,12 +7,21 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm install --only=production
+RUN apt-get -q update && \
+apt-get install -y software-properties-common && \
+apt-get -q update && \
+add-apt-repository -r ppa:jonathonf/ffmpeg-4 && \
+apt-get -q update && \
+apt-get install -y ffmpeg && \
+npm install --only=production
+
+
 # If you are building your code for production
 # RUN npm ci --only=production
 
 # Bundle app source
-COPY . .
+COPY secrets/ ./secrets/
+COPY dist ./dist/
 
 EXPOSE 8080
 

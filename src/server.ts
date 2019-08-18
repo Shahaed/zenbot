@@ -16,8 +16,6 @@ const player_service = new PlayerServices(db);
 const presence_update = new PresenceListener(player_service);
 
 client.on("ready", () => {
-    client.fetchUser("344614286368440330").then(user => {
-        console.log(user);
-    });
+    console.info("Client Connected!");
     presence_update.zen_player_presence_change(client);
 });

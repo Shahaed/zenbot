@@ -35,5 +35,5 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm test
-        npm run integ-test
+        npm run unit-test
+        # npm run integ-test

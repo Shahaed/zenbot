@@ -29,7 +29,9 @@ jobs:
         cd secrets
         echo $ENV_FILE > .env
         echo $ZENBOT_DB_FILE > zenbot.json
+        ls
         cd ..
+        ls
     - name: npm install, build, and test
       run: |
         npm install

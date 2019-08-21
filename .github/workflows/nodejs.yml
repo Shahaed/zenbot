@@ -18,8 +18,8 @@ jobs:
       runs: |
         mkdir -p secrets
         cd secrets
-        echo \"${ENV_FILE}\" > .env
-        echo \"${ZENBOT_DB_FILE}\" > zenbot.json"
+        echo "${ENV_FILE}" > .env
+        echo "${ZENBOT_DB_FILE}" > zenbot.json"
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test

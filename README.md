@@ -21,4 +21,3 @@ If you plan on using voice you need FFMPEG installed:
 MacOS --> `brew install ffmpeg`
 
 Linux and Windows --> [Use this guide.](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
-

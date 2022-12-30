@@ -38,7 +38,7 @@
     "@types/node": "^12.6.2",
     "chai": "^4.2.0",
     "concurrently": "^4.1.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.1",
     "prettier": "1.18.2",
     "ts-mocha": "^6.0.0",
